@@ -134,11 +134,3 @@ Contributions are welcome and highly appreciated!
 
 ---
 
-## 🖼️ Screenshots (Optional)
-
-You can include UI previews here to give visitors an idea of the website's look:
-
-```markdown
-![Homepage Preview](screenshots/home.png)
-![Menu Page Preview](screenshots/menu.png)
-![Shopping Cart View](screenshots/cart.png)
