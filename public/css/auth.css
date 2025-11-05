@@ -1,0 +1,21 @@
+.auth-container{
+  max-width:720px;
+  margin:0 auto;
+  padding:16px;
+}
+.auth-container h1{
+  color:var(--brown-900);
+  margin:0 0 12px;
+}
+.form-card{ /* inherits base from bakery.css */
+  display:block;
+}
+.form-card .text-sm{ font-size:12px }
+.form-card a{ color:var(--brown-700); text-decoration:none }
+.form-card a:hover{ text-decoration:underline }
+.flex{ display:flex }
+.items-center{ align-items:center }
+.justify-between{ justify-content:space-between }
+.mr-2{ margin-right:8px }
+.space-y-4 > * + *{ margin-top:16px }
+.w-full{ width:100% }

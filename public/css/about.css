@@ -1,0 +1,58 @@
+.about-hero{
+  background:linear-gradient(180deg, var(--cream-50), transparent);
+  padding:48px 16px 28px;
+  border-radius:18px;
+}
+.about-hero h1{
+  margin:0 0 8px;
+  color:var(--brown-900);
+  font-size:32px;
+}
+.about-hero p{ margin:0; color:var(--muted) }
+
+.our-mission,
+.the-team{
+  background:var(--white);
+  border:1px solid rgba(125,95,70,.12);
+  border-radius:18px;
+  padding:20px;
+  box-shadow:var(--shadow);
+  margin-top:22px;
+}
+.our-mission h2,
+.the-team h2{
+  margin:0 0 8px;
+  color:var(--brown-800);
+}
+
+.team-member{
+  display:flex;
+  gap:16px;
+  align-items:flex-start;
+  margin-top:10px;
+}
+.team-photo{
+  width:120px;
+  height:120px;
+  object-fit:cover;
+  border:1px solid rgba(125,95,70,.2);
+  border-radius:14px;
+}
+.image-placeholder{
+  width:120px;
+  height:120px;
+  background:var(--flour-100);
+  border:1px solid rgba(125,95,70,.2);
+  border-radius:14px;
+}
+.the-team p{ margin:0; color:var(--text) }
+
+.contact-cta{
+  background:var(--cream-50);
+  border:1px solid rgba(125,95,70,.12);
+  border-radius:18px;
+  padding:20px;
+  margin-top:22px;
+}
+.contact-cta h2{ margin:0 0 6px; color:var(--brown-900) }
+.contact-cta p{ margin:0 0 12px; color:var(--muted) }
